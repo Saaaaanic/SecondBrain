@@ -7,7 +7,7 @@ const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // 2. Your ngrok URL pointing to your n8n webhook
-const N8N_WEBHOOK_URL = 'https://YOUR_NGROK_ID.ngrok-free.app/webhook/YOUR_WEBHOOK_PATH';
+const N8N_WEBHOOK_URL = 'https://a03c-128-127-123-197.ngrok-free.app/webhook-test/capture';
 
 function App() {
   const [entries, setEntries] = useState([]);
